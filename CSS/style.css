@@ -9,6 +9,8 @@
     background-color:beige;
     padding: 2%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    font-weight: bolder;
+    font-size: larger;
 }
 section{
     display: flex;
@@ -20,22 +22,21 @@ section{
 .mydiv{
     display: inline-block;
     flex-wrap: wrap;
-    width: 250px; 
-    height: 430px;
-    background-color: beige;
+    width: 300px; 
+    height: 500px;
+    background-color:beige;
     /* padding: 15px; */
     border-radius: 5%;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.247);
     margin: 15px;
     overflow: auto; 
-    
-                 
 } 
 img{
     height: 70%; 
     width: 90%;
     border-radius: 5%;
     margin: 5%;
+    margin-bottom: 0%;
     
 }
 body {
@@ -44,10 +45,23 @@ body {
     background-color: bisque;
   }
 h3{
-    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-left: 7%;
+}
+p{
+    text-align:justify;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 0%;
+    margin-bottom: 2%;   
 }
 .sp{
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    font-weight: bold;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 5%;
 }
   
